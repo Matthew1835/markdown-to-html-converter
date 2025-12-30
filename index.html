@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML Converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Convert your markdown to HTML</h1>
+
+    <div class="row bg-danger">
+        <div class="col-4 bg-success">
+            <h2>Markdown Input</h2>
+            <textarea name="" id="markdown-input" placeholder="Enter your markdown here..."></textarea>
+        </div>
+        
+        <div class="col-4 bg-primary">
+            <h2>Raw HTML Output</h2>
+            <div id="html-output"></div>
+        </div>
+
+        <div class="col-4 bg-secondary">
+            <h2>HTML Preview</h2>
+            <div id="preview"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
